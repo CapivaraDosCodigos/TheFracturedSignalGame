@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://b4uw00pyofeai"
+path="res://.godot/imported/StatesEnd.dialogue-d291db21d7ec0a3797fcacdb24531fd6.tres"
+
+[deps]
+
+source_file="res://Dialogos/StatesEnd.dialogue"
+dest_files=["res://.godot/imported/StatesEnd.dialogue-d291db21d7ec0a3797fcacdb24531fd6.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,258 @@
+[gd_resource type="Theme" format=3 uid="uid://c48o1m0sj1sts"]
+
+[ext_resource type="FontFile" uid="uid://sdrhmms2smth" path="res://Fontes/monogram-extended.ttf" id="1_oo1nr"]
+[ext_resource type="Texture2D" uid="uid://dj7yr77vi2i7f" path="res://textures/Menu SpriteSheet/Folding & Cutout Paper UI SpriteSheet.png" id="2_3d3ma"]
+[ext_resource type="FontFile" uid="uid://bo286ur1wn4v7" path="res://Fontes/monogram-extended-italic.ttf" id="3_bkix7"]
+[ext_resource type="FontFile" uid="uid://dinystcxw8ohw" path="res://Fontes/monogram.ttf" id="4_t01n0"]
+[ext_resource type="Texture2D" uid="uid://dtpivj1pr3i3p" path="res://textures/Icons/IconsShadow-32.png" id="5_3d3ma"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_oo1nr"]
+load_path = "res://.godot/imported/Folding & Cutout Paper UI SpriteSheet.png-88f62a47f08eb9029c80e6619bc364e5.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3d3ma"]
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+texture = SubResource("CompressedTexture2D_oo1nr")
+texture_margin_left = 20.0
+texture_margin_top = 12.0
+texture_margin_right = 14.0
+texture_margin_bottom = 14.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+region_rect = Rect2(3232, 3616, 192, 160)
+modulate_color = Color(0.80784315, 0.7254902, 0.5647059, 1)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bkix7"]
+load_path = "res://.godot/imported/Folding & Cutout Paper UI SpriteSheet.png-88f62a47f08eb9029c80e6619bc364e5.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ifg68"]
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+texture = SubResource("CompressedTexture2D_bkix7")
+texture_margin_left = 20.0
+texture_margin_top = 12.0
+texture_margin_right = 14.0
+texture_margin_bottom = 14.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+region_rect = Rect2(3232, 3616, 192, 160)
+modulate_color = Color(0.80784315, 0.7254902, 0.5647059, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rj1rt"]
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+texture = SubResource("CompressedTexture2D_bkix7")
+texture_margin_left = 20.0
+texture_margin_top = 12.0
+texture_margin_right = 14.0
+texture_margin_bottom = 14.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+region_rect = Rect2(3232, 3616, 192, 160)
+modulate_color = Color(0.9254902, 0.8666667, 0.7529412, 1)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1onuv"]
+load_path = "res://.godot/imported/Folding & Cutout Paper UI SpriteSheet.png-88f62a47f08eb9029c80e6619bc364e5.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3ejwq"]
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+texture = SubResource("CompressedTexture2D_1onuv")
+texture_margin_left = 20.0
+texture_margin_top = 12.0
+texture_margin_right = 14.0
+texture_margin_bottom = 14.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+region_rect = Rect2(3232, 3616, 192, 160)
+modulate_color = Color(0.9836257, 0.97039443, 0.94484776, 1)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3d3ma"]
+load_path = "res://.godot/imported/Folding & Cutout Paper UI SpriteSheet.png-88f62a47f08eb9029c80e6619bc364e5.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bkix7"]
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+texture = SubResource("CompressedTexture2D_3d3ma")
+texture_margin_left = 20.0
+texture_margin_top = 12.0
+texture_margin_right = 14.0
+texture_margin_bottom = 14.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+region_rect = Rect2(3232, 3616, 192, 160)
+modulate_color = Color(0.7254902, 0.6784314, 0.6117647, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_t01n0"]
+content_margin_left = 32.0
+content_margin_top = 39.0
+content_margin_right = 32.0
+content_margin_bottom = 41.0
+texture = ExtResource("2_3d3ma")
+texture_margin_left = 44.0
+texture_margin_top = 64.0
+texture_margin_right = 45.0
+texture_margin_bottom = 55.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+region_rect = Rect2(1243, 82, 633, 187)
+
+[sub_resource type="DPITexture" id="DPITexture_oo1nr"]
+_source = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><circle cx=\"8\" cy=\"8\" r=\"6\" fill=\"#fefffe\" fill-opacity=\".75\"/><path fill=\"none\" stroke=\"#1a1a1a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-opacity=\".65\" stroke-width=\"2\" d=\"m9 5-3 3 3 3\"/></svg>
+"
+base_scale = 0.7
+
+[sub_resource type="DPITexture" id="DPITexture_3d3ma"]
+_source = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><circle cx=\"8\" cy=\"8\" r=\"6\" fill=\"#fefffe\"/><path fill=\"none\" stroke=\"#1a1a1a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m9 5-3 3 3 3\"/></svg>
+"
+base_scale = 0.5
+
+[sub_resource type="DPITexture" id="DPITexture_bkix7"]
+_source = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"32\"><path fill=\"#d3d3d3\" d=\"m5 1h6v30h-6z\"/></svg>
+"
+base_scale = 0.5
+
+[sub_resource type="DPITexture" id="DPITexture_t01n0"]
+_source = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><circle cx=\"8\" cy=\"8\" r=\"6\" fill=\"#fefffe\" fill-opacity=\".75\"/><path fill=\"none\" stroke=\"#1a1a1a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-opacity=\".65\" stroke-width=\"2\" d=\"m7 5 3 3-3 3\"/></svg>
+"
+base_scale = 0.5
+
+[sub_resource type="DPITexture" id="DPITexture_ifg68"]
+_source = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><circle cx=\"8\" cy=\"8\" r=\"6\" fill=\"#fefffe\"/><path fill=\"none\" stroke=\"#1a1a1a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m7 5 3 3-3 3\"/></svg>
+"
+base_scale = 0.5
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bkix7"]
+atlas = ExtResource("5_3d3ma")
+region = Rect2(0, 224, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t01n0"]
+atlas = ExtResource("5_3d3ma")
+region = Rect2(0, 224, 32, 32)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ifg68"]
+load_path = "res://.godot/imported/IconsShadow-32.png-5289a78a54035c8d7c5f64d735f88e65.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rj1rt"]
+atlas = SubResource("CompressedTexture2D_ifg68")
+region = Rect2(32, 224, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1onuv"]
+atlas = SubResource("CompressedTexture2D_ifg68")
+region = Rect2(32, 224, 32, 32)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oo1nr"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oo1nr"]
+content_margin_left = 10.0
+content_margin_top = 4.0
+content_margin_right = 10.0
+content_margin_bottom = 4.0
+bg_color = Color(0.41768366, 0.37822965, 0.32549545, 1)
+border_width_left = 1
+border_width_right = 1
+border_color = Color(0.7058824, 0.654902, 0.5803922, 1)
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3d3ma"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.75)
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bkix7"]
+content_margin_left = 10.0
+content_margin_top = 4.0
+content_margin_right = 10.0
+content_margin_bottom = 4.0
+bg_color = Color(0.1, 0.1, 0.1, 0.3)
+border_width_left = 1
+border_width_right = 1
+border_color = Color(0.7058824, 0.654902, 0.5803922, 1)
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t01n0"]
+content_margin_left = 10.0
+content_margin_top = 4.0
+content_margin_right = 10.0
+content_margin_bottom = 4.0
+bg_color = Color(0.41768366, 0.37822965, 0.32549545, 1)
+border_width_top = 2
+border_color = Color(1, 1, 1, 0.75)
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ifg68"]
+content_margin_left = 10.0
+content_margin_top = 4.0
+content_margin_right = 10.0
+content_margin_bottom = 4.0
+bg_color = Color(0.41768366, 0.37822965, 0.32549545, 1)
+border_width_left = 1
+border_width_right = 1
+border_color = Color(0.7058824, 0.654902, 0.5803922, 1)
+corner_detail = 1
+
+[resource]
+default_font = ExtResource("1_oo1nr")
+default_font_size = 32
+Button/colors/font_color = Color(0.6039216, 0.5529412, 0.47843137, 1)
+Button/colors/font_disabled_color = Color(0.6039216, 0.5529412, 0.47843137, 0.7372549)
+Button/colors/font_focus_color = Color(0.9254902, 0.8666667, 0.7529412, 1)
+Button/colors/font_hover_pressed_color = Color(0.9254902, 0.8666667, 0.7529412, 1)
+Button/colors/font_pressed_color = Color(0.9254902, 0.8666667, 0.7529412, 1)
+Button/font_sizes/font_size = 24
+Button/fonts/font = ExtResource("1_oo1nr")
+Button/styles/disabled = SubResource("StyleBoxTexture_3d3ma")
+Button/styles/focus = SubResource("StyleBoxTexture_ifg68")
+Button/styles/hover = SubResource("StyleBoxTexture_rj1rt")
+Button/styles/normal = SubResource("StyleBoxTexture_3ejwq")
+Button/styles/pressed = SubResource("StyleBoxTexture_bkix7")
+Label/font_sizes/font_size = 32
+Label/fonts/font = ExtResource("1_oo1nr")
+MarginContainer/constants/margin_bottom = 15
+MarginContainer/constants/margin_left = 30
+MarginContainer/constants/margin_right = 30
+MarginContainer/constants/margin_top = 15
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_t01n0")
+RichTextLabel/colors/default_color = Color(0.6030558, 0.5522452, 0.47789007, 1)
+RichTextLabel/font_sizes/italics_font_size = 32
+RichTextLabel/font_sizes/mono_font_size = 32
+RichTextLabel/font_sizes/normal_font_size = 32
+RichTextLabel/fonts/italics_font = ExtResource("3_bkix7")
+RichTextLabel/fonts/mono_font = ExtResource("4_t01n0")
+RichTextLabel/fonts/normal_font = ExtResource("1_oo1nr")
+TabBar/icons/decrement = SubResource("DPITexture_oo1nr")
+TabBar/icons/decrement_highlight = SubResource("DPITexture_3d3ma")
+TabBar/icons/drop_mark = SubResource("DPITexture_bkix7")
+TabBar/icons/increment = SubResource("DPITexture_t01n0")
+TabBar/icons/increment_highlight = SubResource("DPITexture_ifg68")
+TabContainer/colors/font_unselected_color = Color(0.58431375, 0.5372549, 0.4745098, 1)
+TabContainer/colors/icon_unselected_color = Color(0.58431375, 0.5372549, 0.4745098, 1)
+TabContainer/constants/icon_separation = 8
+TabContainer/constants/side_margin = 2
+TabContainer/font_sizes/font_size = 24
+TabContainer/icons/decrement = SubResource("AtlasTexture_bkix7")
+TabContainer/icons/decrement_highlight = SubResource("AtlasTexture_t01n0")
+TabContainer/icons/increment = SubResource("AtlasTexture_rj1rt")
+TabContainer/icons/increment_highlight = SubResource("AtlasTexture_1onuv")
+TabContainer/styles/panel = SubResource("StyleBoxEmpty_oo1nr")
+TabContainer/styles/tab_disabled = SubResource("StyleBoxFlat_oo1nr")
+TabContainer/styles/tab_focus = SubResource("StyleBoxFlat_3d3ma")
+TabContainer/styles/tab_hovered = SubResource("StyleBoxFlat_bkix7")
+TabContainer/styles/tab_selected = SubResource("StyleBoxFlat_t01n0")
+TabContainer/styles/tab_unselected = SubResource("StyleBoxFlat_ifg68")

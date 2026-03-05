@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="ChapterLocationResource" format=3 uid="uid://tc21vqev7cnk"]
+
+[ext_resource type="Script" uid="uid://is81pblluxay" path="res://Scripts/Recusos/ChapterResources/ChapterLocationResource.gd" id="1_a7thm"]
+
+[resource]
+script = ExtResource("1_a7thm")
+CurrentScene = "uid://c2mwoxh82m4x4"

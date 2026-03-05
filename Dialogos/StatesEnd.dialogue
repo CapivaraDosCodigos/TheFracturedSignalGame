@@ -1,0 +1,3 @@
+~ Map
+do Global.call_manager("set_state", Game.States.MAP):
+=> END

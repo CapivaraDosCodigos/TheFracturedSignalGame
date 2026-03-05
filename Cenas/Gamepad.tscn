@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://2jceoa8q4vic"]
+
+[ext_resource type="Texture2D" uid="uid://dj7yr77vi2i7f" path="res://textures/Menu SpriteSheet/Folding & Cutout Paper UI SpriteSheet.png" id="1_d36kn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_otujy"]
+atlas = ExtResource("1_d36kn")
+region = Rect2(288, 3952, 32, 32)
+
+[node name="Gamepad" type="Node2D" unique_id=1971392694]
+modulate = Color(1, 1, 1, 0.14509805)
+
+[node name="up" type="TouchScreenButton" parent="." unique_id=2110383328]
+use_parent_material = true
+position = Vector2(96, 272)
+scale = Vector2(1.667, 1.667)
+texture_normal = SubResource("AtlasTexture_otujy")
+passby_press = true
+action = "ui_up"
+
+[node name="down" type="TouchScreenButton" parent="." unique_id=1631955424]
+use_parent_material = true
+position = Vector2(96, 432)
+scale = Vector2(1.66667, 1.66667)
+texture_normal = SubResource("AtlasTexture_otujy")
+passby_press = true
+action = "ui_down"
+
+[node name="left" type="TouchScreenButton" parent="." unique_id=1355392130]
+use_parent_material = true
+position = Vector2(16, 352)
+scale = Vector2(1.667, 1.667)
+texture_normal = SubResource("AtlasTexture_otujy")
+passby_press = true
+action = "ui_left"
+
+[node name="right" type="TouchScreenButton" parent="." unique_id=2005130521]
+use_parent_material = true
+position = Vector2(176, 352)
+scale = Vector2(1.667, 1.667)
+texture_normal = SubResource("AtlasTexture_otujy")
+passby_press = true
+action = "ui_right"
+
+[node name="confirm" type="TouchScreenButton" parent="." unique_id=2080877075]
+use_parent_material = true
+position = Vector2(832, 392)
+scale = Vector2(2.50033, 2.50033)
+texture_normal = SubResource("AtlasTexture_otujy")
+passby_press = true
+action = "ui_accept"
+
+[node name="cancel" type="TouchScreenButton" parent="." unique_id=1284841402]
+use_parent_material = true
+position = Vector2(832, 256)
+scale = Vector2(2.50033, 2.50033)
+texture_normal = SubResource("AtlasTexture_otujy")
+action = "ui_cancel"
+
+[node name="menu" type="TouchScreenButton" parent="." unique_id=1168369737]
+use_parent_material = true
+position = Vector2(832, 112)
+scale = Vector2(2.50033, 2.50033)
+texture_normal = SubResource("AtlasTexture_otujy")
+action = "menu"

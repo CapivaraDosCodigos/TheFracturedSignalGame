@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="CharacterResource" format=3 uid="uid://dt4x5ab01cq87"]
+
+[ext_resource type="Script" uid="uid://b6bq1rf6evoww" path="res://Scripts/Recusos/CharacterResource.gd" id="1_ej6gx"]
+[ext_resource type="Script" uid="uid://b5eutskoxjrhc" path="res://Scripts/Recusos/StatBuff.gd" id="2_pqpuj"]
+[ext_resource type="Curve" uid="uid://c0kat1ve5usjx" path="res://Recusos/Curvas/curve_health.tres" id="3_h02qb"]
+[ext_resource type="Curve" uid="uid://dym2u6xcecuc1" path="res://Recusos/Curvas/curve_defense.tres" id="4_3bc07"]
+[ext_resource type="Curve" uid="uid://cm1vd73wspvan" path="res://Recusos/Curvas/curve_attack.tres" id="5_0gy8b"]
+
+[sub_resource type="Resource" id="Resource_ej6gx"]
+script = ExtResource("2_pqpuj")
+stat = 2
+buff_amount = 2.0
+buff_type = 1
+metadata/_custom_type_script = "uid://b5eutskoxjrhc"
+
+[resource]
+script = ExtResource("1_ej6gx")
+experience = 1
+stat_buffs = Array[ExtResource("2_pqpuj")]([SubResource("Resource_ej6gx")])
+metadata/_custom_type_script = "uid://b6bq1rf6evoww"

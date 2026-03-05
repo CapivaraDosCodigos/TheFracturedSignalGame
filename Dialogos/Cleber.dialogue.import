@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bf58opg1plpr3"
+path="res://.godot/imported/Cleber.dialogue-0e04da73d2c1f0da702cc60c8d9797a9.tres"
+
+[deps]
+
+source_file="res://Dialogos/Cleber.dialogue"
+dest_files=["res://.godot/imported/Cleber.dialogue-0e04da73d2c1f0da702cc60c8d9797a9.tres"]
+
+[params]
+
+defaults=true
