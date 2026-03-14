@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://cwqw64gywgyyt"]
+
+[ext_resource type="Script" uid="uid://b6vlakk5v1luw" path="res://Entities/Players/Player2D.gd" id="1_m320n"]
+[ext_resource type="SpriteFrames" uid="uid://cud8yimiewx1y" path="res://Entities/Players/Zeta_C1/SpriteFrames/IdleSpriteZetaC1.tres" id="5_mhm65"]
+[ext_resource type="SpriteFrames" uid="uid://bmuwiyanb6t04" path="res://Entities/Players/Zeta_C1/SpriteFrames/WalkSpriteZetaC1.tres" id="6_c30gt"]
+[ext_resource type="SpriteFrames" uid="uid://fnt0k0mh6ku0" path="res://Entities/Players/Zeta_C1/SpriteFrames/RunSpriteZetaC1.tres" id="7_l7u8l"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ijxj1"]
+size = Vector2(16, 25)
+
+[node name="Zeta" type="CharacterBody2D" unique_id=71236523 node_paths=PackedStringArray("alvo", "idle", "walk", "run")]
+collision_mask = 6
+script = ExtResource("1_m320n")
+speed = 65.0
+alvo = NodePath("RayCast2D")
+idle = NodePath("Idle")
+walk = NodePath("Walk")
+run = NodePath("Run")
+metadata/_custom_type_script = "uid://b6vlakk5v1luw"
+
+[node name="Collision" type="CollisionShape2D" parent="." unique_id=1914509727]
+visible = false
+position = Vector2(0, 3.5)
+shape = SubResource("RectangleShape2D_ijxj1")
+
+[node name="RayCast2D" type="RayCast2D" parent="." unique_id=1095969056]
+position = Vector2(0, 4)
+target_position = Vector2(0, 25)
+collision_mask = 2
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=183855976]
+zoom = Vector2(4.8, 4.8)
+
+[node name="Idle" type="AnimatedSprite2D" parent="." unique_id=676023726]
+sprite_frames = ExtResource("5_mhm65")
+animation = &"Up_Right"
+autoplay = "Down"
+
+[node name="Walk" type="AnimatedSprite2D" parent="." unique_id=185287721]
+visible = false
+sprite_frames = ExtResource("6_c30gt")
+animation = &"Up_Right"
+autoplay = "Down"
+
+[node name="Run" type="AnimatedSprite2D" parent="." unique_id=29184894]
+visible = false
+sprite_frames = ExtResource("7_l7u8l")
+animation = &"Up_Right"
+autoplay = "Down"

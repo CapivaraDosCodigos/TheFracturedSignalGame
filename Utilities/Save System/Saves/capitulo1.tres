@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="ChapterResource" format=3 uid="uid://dpha1sksrho0x"]
+
+[ext_resource type="Script" uid="uid://c2avgjp10piyw" path="res://Utilities/Save System/ChapterResources/ChapterConfigResource.gd" id="1_mjhvw"]
+[ext_resource type="Script" uid="uid://b8spnu513u6xd" path="res://Utilities/Save System/ChapterResources/ChapterResource.gd" id="2_4woph"]
+[ext_resource type="Script" uid="uid://is81pblluxay" path="res://Utilities/Save System/ChapterResources/ChapterLocationResource.gd" id="2_ksjc0"]
+[ext_resource type="Script" uid="uid://c8bpjy2a11tu8" path="res://Entities/Players/PlayerResource.gd" id="3_ttk5h"]
+[ext_resource type="Script" uid="uid://c6aei082e8pia" path="res://Utilities/Save System/ChapterResources/ChapterPlayersResource.gd" id="4_6k4v4"]
+[ext_resource type="Script" uid="uid://b6exupp8uqin0" path="res://Utilities/Save System/ChapterResources/ChapterWorldResource.gd" id="5_8bboj"]
+
+[sub_resource type="Resource" id="Resource_6u7t8"]
+script = ExtResource("1_mjhvw")
+metadata/_custom_type_script = "uid://c2avgjp10piyw"
+
+[sub_resource type="Resource" id="Resource_11jo8"]
+script = ExtResource("2_ksjc0")
+CurrentScene = "uid://c2mwoxh82m4x4"
+metadata/_custom_type_script = "uid://is81pblluxay"
+
+[sub_resource type="Resource" id="Resource_t7l0p"]
+script = ExtResource("4_6k4v4")
+metadata/_custom_type_script = "uid://c6aei082e8pia"
+
+[sub_resource type="Resource" id="Resource_0omkv"]
+script = ExtResource("5_8bboj")
+metadata/_custom_type_script = "uid://b6exupp8uqin0"
+
+[resource]
+script = ExtResource("2_4woph")
+chapterConfig = SubResource("Resource_6u7t8")
+chapterWorld = SubResource("Resource_0omkv")
+chapterLocation = SubResource("Resource_11jo8")
+chapterPlayers = SubResource("Resource_t7l0p")
+metadata/_custom_type_script = "uid://b8spnu513u6xd"

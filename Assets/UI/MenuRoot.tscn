@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://lafx5b7pdflg"]
+
+[ext_resource type="Theme" uid="uid://c48o1m0sj1sts" path="res://Assets/UI/Tema.tres" id="1_nhkbv"]
+[ext_resource type="Script" uid="uid://bptw5etf0tya5" path="res://Assets/UI/menu_root.gd" id="2_nhkbv"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nhkbv"]
+load_path = "res://.godot/imported/Folding & Cutout Paper UI SpriteSheet.png-88f62a47f08eb9029c80e6619bc364e5.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fan7x"]
+content_margin_left = 47.0
+content_margin_top = 43.0
+content_margin_right = 47.0
+content_margin_bottom = 36.0
+texture = SubResource("CompressedTexture2D_nhkbv")
+texture_margin_left = 63.0
+texture_margin_top = 59.0
+texture_margin_right = 63.0
+texture_margin_bottom = 52.0
+region_rect = Rect2(66, 70, 380, 413)
+
+[node name="Menu" type="Control" unique_id=1327444557 node_paths=PackedStringArray("start_focus")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_nhkbv")
+script = ExtResource("2_nhkbv")
+start_focus = NodePath("MenuZeno1/PanelContainer/TabContainer/Perfil")
+metadata/_custom_type_script = "uid://bptw5etf0tya5"
+
+[node name="MenuZeno1" type="MarginContainer" parent="." unique_id=1394244225]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 278
+theme_override_constants/margin_top = 52
+theme_override_constants/margin_right = 276
+theme_override_constants/margin_bottom = 51
+
+[node name="PanelContainer" type="PanelContainer" parent="MenuZeno1" unique_id=561113812]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_fan7x")
+
+[node name="TabContainer" type="TabContainer" parent="MenuZeno1/PanelContainer" unique_id=825350025]
+layout_mode = 2
+tab_alignment = 1
+current_tab = 0
+
+[node name="Perfil" type="VBoxContainer" parent="MenuZeno1/PanelContainer/TabContainer" unique_id=697000054]
+layout_mode = 2
+focus_neighbor_right = NodePath("../Invetario")
+metadata/_tab_index = 0
+
+[node name="Invetario" type="VBoxContainer" parent="MenuZeno1/PanelContainer/TabContainer" unique_id=1761266137]
+visible = false
+layout_mode = 2
+focus_neighbor_left = NodePath("../Perfil")
+focus_neighbor_right = NodePath("../Companheros")
+metadata/_tab_index = 1
+
+[node name="Companheros" type="VBoxContainer" parent="MenuZeno1/PanelContainer/TabContainer" unique_id=2060226819]
+visible = false
+layout_mode = 2
+focus_neighbor_left = NodePath("../Invetario")
+metadata/_tab_index = 2
+
+[node name="oi" type="VBoxContainer" parent="MenuZeno1/PanelContainer/TabContainer" unique_id=1765604233]
+visible = false
+layout_mode = 2
+focus_neighbor_left = NodePath("../Invetario")
+metadata/_tab_index = 3

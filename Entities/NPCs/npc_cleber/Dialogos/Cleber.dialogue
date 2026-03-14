@@ -1,0 +1,20 @@
+import "res://Utilities/Dialogue System/StatesEnd.dialogue" as States
+
+~ start
+Cleber: [[Oi|Ola|Aoba]]
+if Global.manager.Chapter.has_cena_vista("primero"):
+	Cleber: Você tinha escolhido a primeira opção.
+elif Global.manager.Chapter.has_cena_vista("segunda"):
+	Cleber: Você tinha escolhido a segunda opção.
+else:
+	Cleber: Escolha uma opção.
+	- Primeira opção
+		Cleber: Você escolheu a primeira opção.
+		do Global.manager.Chapter.add_cena_vista("primero")
+	- Segunda opção
+		Cleber: Você escolheu a segunda opção.
+		do Global.manager.Chapter.add_cena_vista("segunda")
+	- Começar de novo => start
+	- Derminar a conversa => States/Map
+Cleber: Adeus... [wait=1] Senhor
+=> States/Map

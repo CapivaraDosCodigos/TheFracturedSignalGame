@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bf58opg1plpr3"
+path="res://.godot/imported/Cleber.dialogue-af0389256d6fde339bc439f9bc44940b.tres"
+
+[deps]
+
+source_file="res://Entities/NPCs/npc_cleber/Dialogos/Cleber.dialogue"
+dest_files=["res://.godot/imported/Cleber.dialogue-af0389256d6fde339bc439f9bc44940b.tres"]
+
+[params]
+
+defaults=true

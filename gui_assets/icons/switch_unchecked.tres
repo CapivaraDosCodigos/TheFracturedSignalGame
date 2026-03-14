@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b5eb0m77apynj"]
+
+[ext_resource type="Texture2D" uid="uid://d0pungualnkx" path="res://gui_assets/art/waste_no_space_64x64_gui.png" id="1_3vxac"]
+
+[resource]
+atlas = ExtResource("1_3vxac")
+region = Rect2(45, 19, 11, 5)
+margin = Rect2(0, 0, 2, 0)

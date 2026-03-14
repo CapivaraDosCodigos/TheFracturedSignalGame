@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://cr6ulctrfmjys"]
+
+[ext_resource type="Script" uid="uid://b0ndfb504lw8y" path="res://Entities/Players/PlayerBatalha2D.gd" id="1_fctbs"]
+[ext_resource type="SpriteFrames" uid="uid://dhy6dhilg6kai" path="res://Entities/Players/Zeta_C1/SpriteFrames/IdleSpriteZetaC1Batalha.tres" id="2_fctbs"]
+[ext_resource type="SpriteFrames" uid="uid://h26ytbbap3ro" path="res://Entities/Players/Zeta_C1/SpriteFrames/WalkSpriteZetaC1Batalha.tres" id="3_lhwtc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ijxj1"]
+size = Vector2(12, 15)
+
+[node name="Zeta" type="CharacterBody2D" unique_id=1689604272 node_paths=PackedStringArray("idle", "walk")]
+collision_mask = 6
+script = ExtResource("1_fctbs")
+idle = NodePath("Idle")
+walk = NodePath("Walk")
+metadata/_custom_type_script = "uid://b0ndfb504lw8y"
+
+[node name="Collision" type="CollisionShape2D" parent="." unique_id=1914509727]
+position = Vector2(0, 2.5)
+shape = SubResource("RectangleShape2D_ijxj1")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=183855976]
+zoom = Vector2(4.8, 4.8)
+
+[node name="Idle" type="AnimatedSprite2D" parent="." unique_id=1520148776]
+visible = false
+sprite_frames = ExtResource("2_fctbs")
+animation = &"Up"
+autoplay = "Down"
+frame_progress = 0.7589123
+
+[node name="Walk" type="AnimatedSprite2D" parent="." unique_id=753982468]
+sprite_frames = ExtResource("3_lhwtc")
+animation = &"Up_Right"
+autoplay = "Down"

@@ -27,6 +27,8 @@ boot_splash/image="uid://c5ueqalrhak6h"
 
 DialogueManager="*uid://c3rodes2l3gxb"
 Global="*uid://jguoxywlmefe"
+SceneManager="*uid://i15wa57mxkf2"
+GlobalEvents="*uid://d3kbbqget6g8u"
 
 [display]
 
@@ -43,6 +45,13 @@ enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
 [file_customization]
 
 folder_colors={
+"res://Assets/": "blue",
+"res://Common/": "gray",
+"res://Entities/": "teal",
+"res://Location/": "green",
+"res://Objects/": "orange",
+"res://Stages/": "red",
+"res://Utilities/": "gray",
 "res://addons/": "pink",
 "res://textures/": "teal"
 }
@@ -101,7 +110,9 @@ pointing/emulate_touch_from_mouse=true
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://Dialogos/Cleber.dialogue", "res://Dialogos/StatesEnd.dialogue")
+locale/translation_remaps={}
+locale/translations=PackedStringArray("res://Location/Traduções.english.translation", "res://Location/Traduções.portuguese.translation")
+locale/translations_pot_files=PackedStringArray("res://Entities/NPCs/npc_cleber/Dialogos/Cleber.dialogue", "res://Utilities/Dialogue System/StatesEnd.dialogue")
 
 [layer_names]
 

@@ -1,0 +1,61 @@
+[gd_resource type="Theme" format=3 uid="uid://bs1do4oy4sg2a"]
+
+[ext_resource type="FontFile" uid="uid://sdrhmms2smth" path="res://Assets/Fontes/monogram-extended.ttf" id="1_tg1bc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tg1bc"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.1, 0.1, 0.1, 0.3)
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_imwb7"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.75)
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_detail = 1
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8hvao"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.225, 0.225, 0.225, 0.6)
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vbvwb"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.1, 0.1, 0.1, 0.6)
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_luthm"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0, 0, 0, 0.6)
+corner_detail = 1
+
+[resource]
+default_font = ExtResource("1_tg1bc")
+default_font_size = 24
+Button/styles/disabled = SubResource("StyleBoxFlat_tg1bc")
+Button/styles/focus = SubResource("StyleBoxFlat_imwb7")
+Button/styles/hover = SubResource("StyleBoxFlat_8hvao")
+Button/styles/normal = SubResource("StyleBoxFlat_vbvwb")
+Button/styles/pressed = SubResource("StyleBoxFlat_luthm")

@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://jguoxywlmefe"]
+
+[ext_resource type="Script" uid="uid://b83okraep4gwg" path="res://Utilities/Game/Global.gd" id="1_fv0cb"]
+[ext_resource type="PackedScene" uid="uid://2jceoa8q4vic" path="res://Common/Gamepad.tscn" id="2_k816i"]
+
+[node name="Global" type="Node" unique_id=1978008141]
+script = ExtResource("1_fv0cb")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=674543864]
+layer = 120
+
+[node name="Gamepad" parent="CanvasLayer" unique_id=1971392694 instance=ExtResource("2_k816i")]
